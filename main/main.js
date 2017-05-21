@@ -5,32 +5,24 @@ module.exports = function main(inputs) {
       switch(num)
       {
           case 0:
-              var lcd="._.|.|| |"
+              var lcd="._.\n"+"|.|\n"+"|_|"
               return lcd
               break;
           case 1:
-              var lcd ="...
-..|
-..|"
+              var lcd ="...\n"+"..|\n"+"..|"
               return lcd
               break;
           case 2:
-              var lcd ="._.
-._|
-| ."
+              var lcd ="._.\n"+"._|\n"+"| ."
               return lcd
               break;
           case 3:
-              var lcd ="._.
-._|
-._|"
+              var lcd ="._.\n"+"._|\n"+"._|"
               return lcd
               break;
               
           case 9:
-               var lcd ="._.
-| |
-..|"
+               var lcd ="._.\n"+"| |\n"+"..|"
               return lcd
               break;
       }
