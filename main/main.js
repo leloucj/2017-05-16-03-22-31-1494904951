@@ -5,9 +5,7 @@ module.exports = function main(inputs) {
       switch(num)
       {
           case 0:
-              var lcd="._.
-|.|
-| |"
+              var lcd="._.|.|| |"
               return lcd
               break;
           case 1:
