@@ -5,7 +5,7 @@ module.exports = function main(inputs) {
       switch(num)
       {
           case 0:
-              var lcd="._.
+              var lcd="\\._.
 |.|
 |_|"
               return lcd
@@ -30,7 +30,7 @@ module.exports = function main(inputs) {
               break;
               
           case 9:
-               var lcd ="._.
+               var lcd ="\\._\\.
 |_|
 ..|"
               return lcd
