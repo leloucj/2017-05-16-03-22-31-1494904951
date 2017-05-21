@@ -5,9 +5,9 @@ module.exports = function main(inputs) {
       switch(num)
       {
           case 0:
-              var lcd="\\._.
+              var lcd="._.
 |.|
-|_|"
+| |"
               return lcd
               break;
           case 1:
@@ -19,7 +19,7 @@ module.exports = function main(inputs) {
           case 2:
               var lcd ="._.
 ._|
-|_."
+| ."
               return lcd
               break;
           case 3:
@@ -30,8 +30,8 @@ module.exports = function main(inputs) {
               break;
               
           case 9:
-               var lcd ="\\._\\.
-|_|
+               var lcd ="._.
+| |
 ..|"
               return lcd
               break;
