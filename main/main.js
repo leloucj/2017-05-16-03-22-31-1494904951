@@ -98,6 +98,6 @@ module.exports = function main(inputs) {
     print[0]=tArray[0].join(" ");
     print[1]=tArray[1].join(" ");
     print[2]=tArray[2].join(" ");
-    var list=print[0]+"\n"+"         "+print[1]+"\n"+"         "+print[2]+"\n";
+    var list=print[0]+"\n"+print[1]+"\n"+print[2]+"\n";
 return list;
 };
